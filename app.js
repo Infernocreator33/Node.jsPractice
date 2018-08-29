@@ -18,7 +18,7 @@ const temp1 = 36.9;
 const temp2 = 37.6;
 const temp3 = 37.1;
 console.log(temp1, temp2, temp3);
-temp3 = 9;//error
+//temp3 = 9;//error
 
 //increment a number variable
 let c = 0; // c contains 0
@@ -33,7 +33,7 @@ let num1 = 0;
     const num2 = 0;
     console.log(num1);
 }
-console.log(num2); // ok: num2 is declared in the current block above cannot see
+//console.log(num2); // ok: num2 is declared in the current block above cannot see
 
 //template literal
 const country = "france";
@@ -69,8 +69,8 @@ console.log(num === str);  // false
 console.log(num == str); // true
 
 //switch
-const x = "abc";
-switch(x) {
+const p = "abc";
+switch(p) {
     case "abc": 
      console.log("x = abc");
      break;
@@ -93,4 +93,4 @@ for(let i = 1; i <= 5; i++)
 {
     console.log(i); // ok
 }
-console.log(i); // error: the i variable is not visible here
+//console.log(i); // error: the i variable is not visible here
